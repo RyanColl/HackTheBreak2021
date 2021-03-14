@@ -1,0 +1,200 @@
+body {
+    width: auto;
+    height: auto;
+    display:flex;
+    justify-content: center;
+}
+    .main {
+        display:grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        background: radial-gradient(#15253a, #191c20) repeat;
+        height: 800px;
+        max-width: 1180px;
+        width: 1180px;
+    }
+    #left {
+        grid-column: 1/2;
+    }
+    #middle {
+        grid-column: 2/3;
+        z-index: 1;
+        display: grid;
+        grid-template-rows: 10fr 1.3fr;
+        grid-template-columns: 0.5fr 10fr 0.5fr;
+    }
+    #right {
+        grid-column: 3/4;
+    }
+    .midleft{
+        background-color: white;
+        grid-column: 1/2;
+        grid-row: 1/3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 1;
+    }
+    .midleft > .arrowleft {
+        width: 25px;
+        height: 25px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+    .arrowleft:focus {
+        outline: none;
+    }
+    .arrowleft > img {
+        width: 25px;
+        height: 25px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+    .midright{
+        background-color: white;
+        grid-column: 3/4;
+        grid-row: 1/3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 1;
+    }
+    .midright > .arrowright {
+        width: 25px;
+        height: 25px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+    .arrowright:focus {
+        outline: none;
+    }
+    .arrowright > img {
+        width: 25px;
+        height: 25px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+    .img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .image {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        width: 100%;
+        height: 100%;
+    }
+    .orbs{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .orb-stage1 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 3px solid white;
+        overflow: hidden;
+        margin-right: 15px;
+
+    }
+    .big-orb-stage1 {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        border: 4px solid white;
+        overflow: hidden;
+        margin-right: 20px;
+    }
+    .orb-stage2 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 3px solid white;
+        overflow: hidden;
+        margin-right: 35px;
+    }
+    .big-orb-stage2 {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        border: 4px solid white;
+        overflow: hidden;
+        margin-right: 40px;
+    }
+    .orb-stage3 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 3px solid white;
+        overflow: hidden;
+        margin-right: 55px;
+    }
+    .big-orb-stage3 {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        border: 4px solid white;
+        overflow: hidden;
+        margin-right: 60px;
+    }
+    .orb-stage4 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 3px solid white;
+        overflow: hidden;
+        margin-right: 75px;
+    }
+    .big-orb-stage4 {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        border: 4px solid white;
+        overflow: hidden;
+        margin-right: 80px;
+    }
+    .orb-stage1 > img {
+        max-width: 150%;
+        max-height: 150%;
+        object-fit: cover;
+    }
+    .big-orb-stage1 > img {
+        max-width: 150%;
+        max-height: 150%;
+        object-fit: cover;
+    }
+    .orb-stage2 > img {
+        max-width: 150%;
+        max-height: 150%;
+        object-fit: cover;
+    }
+    .big-orb-stage2 > img {
+        max-width: 150%;
+        max-height: 150%;
+        object-fit: cover;
+    }
+    .orb-stage3 > img {
+        max-width: 150%;
+        max-height: 150%;
+        object-fit: cover;
+    }
+    .big-orb-stage3 > img {
+        max-width: 150%;
+        max-height: 150%;
+        object-fit: cover;
+    }
+    .orb-stage4 > img {
+        max-width: 150%;
+        max-height: 150%;
+        object-fit: cover;
+    }
+    .big-orb-stage4 > img {
+        max-width: 150%;
+        max-height: 150%;
+        object-fit: cover;
+    }
+
+
+
