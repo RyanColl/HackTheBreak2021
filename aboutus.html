@@ -8,16 +8,69 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>About-us</title>
     <script>
+        const ryansGitHub = `https://github.com/RyanColl`;
+        const adamsGitHub = ``;
+        const stevensGitHub = ``;
+        const artinsGitHub = ``;
+        const ryansEmail = `rcollicutt@my.bcit.ca`;
+        const adamsEmail = ``;
+        const stevensEmail = ``;
+        const artinsEmail = `aripey11@gmail.com`;
         const ryansWords = `Ryan is a young but avid developer currently 
                             studying full stack web development at BCIT.`;
         const adamsWords = `Adam is a godly character, moving cities with his 
                             mind and bending this reality into diferent dimensions at 
-                            his will`;
-        const stevensWords = ``;
-        const artinsWords = ``;
+                            his will.`;
+        const stevensWords = `Steven completes projects faster than any other person
+                            I have ever worked with. He has snake like reflexes and 
+                            a mind that reminds me of even the most advanced and complex
+                            artificial intelligence.`;
+        const artinsWords = `Artin is a master mind at his craft, and will 
+                            dominate the industry`;
         $($(document).ready(() => {
+            $(".leftmiddle p").text(ryansWords);
             $(".arrowright").on("click", () => {
-                 //change backgorund
+                // change top h3
+                if ($("#orb1").attr("class") == "big-orb-stage1") {
+                    $(".lefttop h3").text("Adam Siyala");
+                }
+                else if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".lefttop h3").text("Steven Sidhu");
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".lefttop h3").text("Artin Peyvasteh");
+                }
+                //change top p
+                if ($("#orb1").attr("class") == "big-orb-stage1") {
+                    $(".lefttop p").text(adamsEmail);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".lefttop p").text(stevensEmail);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".lefttop p").text(artinsEmail);
+                }
+                //change 
+                if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".github").text(ryansGitHub);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".github").text(adamsGitHub);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage4") {
+                    $(".github").text(stevensGitHub);
+                }
+                // change middle p
+                if ($("#orb1").attr("class") == "big-orb-stage1") {
+                    $(".leftmiddle p").text(adamsWords);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".leftmiddle p").text(stevensWords);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".leftmiddle p").text(artinsWords);
+                }
+                 //change background
                 if ($("#orb1").attr("class") == "big-orb-stage1") {
                     $(".img").attr("src", "img/adam.png")
                 }
@@ -63,6 +116,46 @@
                 }
             });
             $(".arrowleft").on("click", () => {
+                // change top h3
+                if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".lefttop h3").text("Ryan Collicutt");
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".lefttop h3").text("Adam Siyala");
+                }
+                else if ($("#orb1").attr("class") == "orb-stage4") {
+                    $(".lefttop h3").text("Steven Sidhu");
+                }
+                //change top p
+                if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".email").text(ryansEmail);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".email").text(adamsEmail);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage4") {
+                    $(".email").text(stevensEmail);
+                }
+                //change github
+                if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".github").text(ryansGitHub);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".github").text(adamsGitHub);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage4") {
+                    $(".github").text(stevensGitHub);
+                }
+                // change middle p
+                if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".leftmiddle p").text(ryansWords);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".leftmiddle p").text(adamsWords);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage4") {
+                    $(".leftmiddle p").text(stevensWords);
+                }
                 //change backgorund
                 if ($("#orb1").attr("class") == "orb-stage2") {
                     $(".img").attr("src", "img/ryancircle-back.png")
@@ -115,9 +208,12 @@
     <main class="main"> 
         <div id="left">
             <div class="lefttop">
-                <img src="img/ryancircle-back.png">
-                <h3></h3>
-                <p></p>
+                <div class="imgorb">
+                    <img src="img/ryancircle-back.png">
+                </div>
+                <h3>Ryan Collicutt</h3>
+                <p class="email">rcollicutt@my.bcit.ca</p>
+                <p class="github">https://github.com/RyanColl</p>
             </div>
             <div class="leftmiddle">
                 <p></p>
@@ -143,7 +239,9 @@
                 <button class="arrowright" type="button"><img src="img/rightarrow.png"></button>
             </div>
         </div>
-        <div id="right"></div>
+        <div id="right">
+            
+        </div>
     </main>
     <footer>
 
