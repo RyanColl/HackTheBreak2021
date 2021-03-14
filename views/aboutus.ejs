@@ -4,13 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/aboutus.css">
+    <link rel="stylesheet" href="aboutus.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>About-us</title>
     <script>
+        const ryansGitHub = `https://github.com/RyanColl`;
+        const adamsGitHub = `https://github.com/AdamSiyala`;
+        const stevensGitHub = `https://github.com/steveoo-tech`;
+        const artinsGitHub = `https://github.com/RTeeen`;
+        const ryansEmail = `rcollicutt@my.bcit.ca`;
+        const adamsEmail = `Adam.siyala@hotmail.com`;
+        const stevensEmail = `steve.sidhu@hotmail.com`;
+        const artinsEmail = `aripey11@gmail.com`;
+        const ryansWords = `Ryan is a young but avid developer currently 
+                            studying full stack web development at BCIT.`;
+        const adamsWords = `Adam is a godly character, moving cities with his 
+                            mind and bending this reality into diferent dimensions at 
+                            his will.`;
+        const stevensWords = `Steven completes projects faster than any other person
+                            I have ever worked with. He has snake like reflexes and 
+                            a mind that reminds me of even the most advanced and complex
+                            artificial intelligence.`;
+        const artinsWords = `Artin is a master mind at his craft, and will 
+                            dominate the industry`;
         $($(document).ready(() => {
+            $(".leftmiddle p").text(ryansWords);
             $(".arrowright").on("click", () => {
-                 //change backgorund
+                //change sidebar photo
+                if ($("#orb1").attr("class") == "big-orb-stage1") {
+                    $(".imgorb img").attr("src", "img/adam.png");
+                }
+                else if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".imgorb img").attr("src", "img/steven-back.png");
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".imgorb img").attr("src", "img/circle-cropped-artin.png");
+                }
+                // change top h3
+                if ($("#orb1").attr("class") == "big-orb-stage1") {
+                    $(".lefttop h3").text("Adam Siyala");
+                }
+                else if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".lefttop h3").text("Steven Sidhu");
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".lefttop h3").text("Artin Peyvasteh");
+                }
+                //change email
+                if ($("#orb1").attr("class") == "big-orb-stage1") {
+                    $(".lefttop p").text(adamsEmail);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".lefttop p").text(stevensEmail);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".lefttop p").text(artinsEmail);
+                }
+                //change github
+                if ($("#orb1").attr("class") == "big-orb-stage1") {
+                    $(".github").text(adamsGitHub);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".github").text(stevensGitHub);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".github").text(artinsGitHub);
+                }
+                // change middle p
+                if ($("#orb1").attr("class") == "big-orb-stage1") {
+                    $(".leftmiddle p").text(adamsWords);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".leftmiddle p").text(stevensWords);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".leftmiddle p").text(artinsWords);
+                }
+                 //change background
                 if ($("#orb1").attr("class") == "big-orb-stage1") {
                     $(".img").attr("src", "img/adam.png")
                 }
@@ -18,7 +88,7 @@
                     $(".img").attr("src", "img/steven-back.png")
                 }
                 else if ($("#orb1").attr("class") == "orb-stage3") {
-                    $(".img").attr("src", "img/artin.jpg")
+                    $(".img").attr("src", "img/circle-cropped-artin.png")
                 }
                 //change orbs
                 if(($("#orb1").attr("class")) == "big-orb-stage1") {
@@ -56,6 +126,56 @@
                 }
             });
             $(".arrowleft").on("click", () => {
+                // change sidebar photo
+                if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".imgorb img").attr("src", "img/ryancircle-back.png");
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".imgorb img").attr("src", "img/adam.png");
+                }
+                else if ($("#orb1").attr("class") == "orb-stage4") {
+                    $(".imgorb img").attr("src", "img/steven-back.png");
+                }
+                // change top h3
+                if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".lefttop h3").text("Ryan Collicutt");
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".lefttop h3").text("Adam Siyala");
+                }
+                else if ($("#orb1").attr("class") == "orb-stage4") {
+                    $(".lefttop h3").text("Steven Sidhu");
+                }
+                //change top p
+                if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".email").text(ryansEmail);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".email").text(adamsEmail);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage4") {
+                    $(".email").text(stevensEmail);
+                }
+                //change github
+                if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".github").text(ryansGitHub);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".github").text(adamsGitHub);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage4") {
+                    $(".github").text(stevensGitHub);
+                }
+                // change middle p
+                if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".leftmiddle p").text(ryansWords);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".leftmiddle p").text(adamsWords);
+                }
+                else if ($("#orb1").attr("class") == "orb-stage4") {
+                    $(".leftmiddle p").text(stevensWords);
+                }
                 //change backgorund
                 if ($("#orb1").attr("class") == "orb-stage2") {
                     $(".img").attr("src", "img/ryancircle-back.png")
@@ -106,7 +226,24 @@
 </head>
 <body>
     <main class="main"> 
-        <div id="left"></div>
+        <div id="left">
+            <div class="lefttop">
+                <div class="imgorb">
+                    <img src="img/ryancircle-back.png">
+                </div>
+                <h3>Ryan Collicutt</h3>
+                <p class="email">rcollicutt@my.bcit.ca</p>
+                <p class="github">https://github.com/RyanColl</p>
+            </div>
+            <div class="leftmiddle">
+                <p></p>
+            </div>
+            <div class="leftbottom">
+                <div class="media-orb1"><a href="#"><img id="or" src="img/facebook_logo.png"></a></div>
+                <div class="media-orb2"><a href="#"><img id="or" src="img/instagram-icon-suzem-limited-make-known-20.png"></a></div>
+                <div class="media-orb3"><a href="#"><img id="or" src="img/twitter-icon-transparent-11549680383mmzgiol88v.png"></a></div>
+            </div>
+        </div>
         <div id="middle">
             <div class="midleft">
                 <button class="arrowleft" type="button"><img src="img/leftarrow.png"></button>
@@ -116,13 +253,15 @@
                 <div class="big-orb-stage1" id="orb1"><img src="img/ryancircle-back.png"></div>
                 <div class="orb-stage1" id="orb2"><img src="img/adam.png"></div>
                 <div class="orb-stage1" id="orb3"><img src="img/steven-back.png"></div>
-                <div class="orb-stage1" id="orb4"><img src="img/artin.jpg"></div>
+                <div class="orb-stage1" id="orb4"><img src="img/circle-cropped-artin.png"></div>
             </div>
             <div class="midright">
                 <button class="arrowright" type="button"><img src="img/rightarrow.png"></button>
             </div>
         </div>
-        <div id="right"></div>
+        <div id="right">
+            
+        </div>
     </main>
     <footer>
 
