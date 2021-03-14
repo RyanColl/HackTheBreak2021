@@ -11,4 +11,8 @@ indexRouter.get("/aboutus", (req, res) => {
   res.render("aboutus");
 });
 
+indexRouter.get("/howitworks", (req, res) => {
+  res.render("howItWorks");
+});
+
 

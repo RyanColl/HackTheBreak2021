@@ -18,7 +18,7 @@
   "version": "1.0.0",
   "main": "Server.ts",
   "scripts": {
-    "test": "nodemon Server.ts"
+    "start": "nodemon Server.ts"
   },
   "repository": {
     "type": "git",
