@@ -1,0 +1,400 @@
+
+
+#Emergency_Number_ {
+	left: 1514px;
+	top: 58px;
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(112,112,112,1);
+}
+#phone-number{
+	opacity: 0.804;
+	left: 1505px;
+	top: 110px;
+	position: absolute;
+	overflow: visible;
+	width: 274px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(0,0,0,1);
+}
+#title {
+	left: 128px;
+	top: 139px;
+	position: absolute;
+	overflow: visible;
+	width: 709px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Baskerville;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	color: rgba(0,0,0,1);
+}
+#mouse {
+	opacity: 0.248;
+	position: absolute;
+	width: 34.469px;
+	height: 48.969px;
+	left: 128px;
+	top: 605px;
+	overflow: visible;
+}
+#Path_1 {
+	fill: rgba(0,0,0,1);
+}
+.Path_1 {
+	overflow: visible;
+	position: absolute;
+	width: 34.469px;
+	height: 48.969px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#about-us-link {
+	opacity: 0.262;
+	left: 182px;
+	top: 613px;
+	position: absolute;
+	overflow: visible;
+	width: 499px;
+	white-space: nowrap;
+	line-height: 80px;
+	margin-top: -25px;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#mental-illness-btn {
+	fill: rgba(253,250,243,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.mental-illness-btn {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+	position: absolute;
+	overflow: visible;
+	width: 571px;
+	height: 176px;
+	left: 669px;
+	top: 719px;
+}
+#resources {
+	left: 128px;
+	top: 437px;
+	position: absolute;
+	overflow: visible;
+	width: 541px;
+	white-space: nowrap;
+	line-height: 35px;
+	margin-top: -2.5px;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#cannabis-mental-health {
+	fill: rgba(235,244,244,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.cannabis-mental-health {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+	position: absolute;
+	overflow: visible;
+	width: 571px;
+	height: 176px;
+	left: 73px;
+	top: 911px;
+}
+#covid-care {
+	fill: rgba(232,232,252,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.covid-care {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+	position: absolute;
+	overflow: visible;
+	width: 571px;
+	height: 176px;
+	left: 73px;
+	top: 723px;
+}
+#Rectangle_6 {
+	fill: rgba(242,223,223,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_6 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+	position: absolute;
+	overflow: visible;
+	width: 571px;
+	height: 176px;
+	left: 669px;
+	top: 911px;
+}
+#Rectangle_7 {
+	fill: rgba(255,241,250,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_7 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.941));
+	position: absolute;
+	overflow: visible;
+	width: 571px;
+	height: 176px;
+	left: 1265px;
+	top: 719px;
+}
+#Rectangle_8 {
+	fill: rgba(254,216,177,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_8 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+	position: absolute;
+	overflow: visible;
+	width: 571px;
+	height: 176px;
+	left: 1265px;
+	top: 911px;
+}
+#Component_1__1 {
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	left: 960px;
+	top: 152px;
+	overflow: visible;
+}
+#Mask_Group_1 {
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#How_does_it__work {
+	left: 1542px;
+	top: 530px;
+	position: absolute;
+	overflow: visible;
+	width: 178px;
+	white-space: nowrap;
+	line-height: 50px;
+	margin-top: -10px;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#MORE_ {
+	opacity: 0.262;
+	left: 1542px;
+	top: 646px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	line-height: 80px;
+	margin-top: -27.5px;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+#Icon_awesome-arrow-right {
+	fill: rgba(0,0,0,0.263);
+}
+.Icon_awesome-arrow-right {
+	overflow: visible;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 1630.5px;
+	top: 650px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-phone-alt {
+	fill: rgba(248,14,14,1);
+}
+.Icon_awesome-phone-alt {
+	overflow: visible;
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	left: 1460px;
+	top: 57px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#house {
+	fill: rgba(0,0,0,0.788);
+}
+.house {
+	overflow: visible;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 68px;
+	top: 33px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Icon_awesome-canadian-maple-le {
+	fill: rgba(248,14,14,1);
+}
+.Icon_awesome-canadian-maple-le {
+	overflow: visible;
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	left: 626px;
+	top: 307px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Covid-19_Care {
+	left: 221px;
+	top: 776px;
+	position: absolute;
+	overflow: visible;
+	width: 259px;
+	white-space: nowrap;
+	line-height: 80px;
+	margin-top: -20px;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Mental_illness {
+	left: 817px;
+	top: 776px;
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	white-space: nowrap;
+	line-height: 80px;
+	margin-top: -20px;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Improving_Your_Mental_Health {
+	left: 1279px;
+	top: 776px;
+	position: absolute;
+	overflow: visible;
+	width: 526px;
+	white-space: nowrap;
+	line-height: 80px;
+	margin-top: -20px;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Cannabis__Mental_Health {
+	left: 118px;
+	top: 968px;
+	position: absolute;
+	overflow: visible;
+	width: 466px;
+	white-space: nowrap;
+	line-height: 80px;
+	margin-top: -20px;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Suicide_Prevention_ {
+	left: 773px;
+	top: 968px;
+	position: absolute;
+	overflow: visible;
+	width: 346px;
+	white-space: nowrap;
+	line-height: 80px;
+	margin-top: -20px;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#Mental_Health_Services {
+	left: 1337px;
+	top: 968px;
+	position: absolute;
+	overflow: visible;
+	width: 412px;
+	white-space: nowrap;
+	line-height: 80px;
+	margin-top: -20px;
+	text-align: left;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
