@@ -2,7 +2,7 @@ import express from "express";
 /* import expressLayouts from "express-ejs-layouts"; */
 import path from "path";
 
-const port = process.env.port || 6969;
+const port = process.env.PORT || 6969;
 
 const app = express();
 
