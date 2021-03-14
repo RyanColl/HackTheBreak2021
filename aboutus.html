@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aboutus.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>About-us</title>
+    <script>
+        $($(document).ready(() => {
+            $(".arrowright").on("click", () => {
+                 //change backgorund
+                if ($("#orb1").attr("class") == "big-orb-stage1") {
+                    $(".img").attr("src", "img/adam.png")
+                }
+                else if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".img").attr("src", "img/steven-back.png")
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".img").attr("src", "img/artin.jpg")
+                }
+                //change orbs
+                if(($("#orb1").attr("class")) == "big-orb-stage1") {
+                    $("#orb1").removeClass("big-orb-stage1");
+                    $("#orb1").addClass("orb-stage2");
+                    $("#orb2").removeClass("orb-stage1");
+                    $("#orb2").addClass("big-orb-stage2");
+                    $("#orb3").removeClass("orb-stage1");
+                    $("#orb3").addClass("orb-stage2");
+                    $("#orb4").removeClass("orb-stage1");
+                    $("#orb4").addClass("orb-stage2");
+                }
+                else if(($("#orb1").attr("class")) == "orb-stage2") {
+                    $("#orb1").removeClass("orb-stage2");
+                    $("#orb1").addClass("orb-stage3");
+                    $("#orb2").removeClass("big-orb-stage2");
+                    $("#orb2").addClass("orb-stage3");
+                    $("#orb3").removeClass("orb-stage2");
+                    $("#orb3").addClass("big-orb-stage3");
+                    $("#orb4").removeClass("orb-stage2");
+                    $("#orb4").addClass("orb-stage3");
+                }
+                else if(($("#orb1").attr("class")) == "orb-stage3") {
+                    $("#orb1").removeClass("orb-stage3");
+                    $("#orb1").addClass("orb-stage4");
+                    $("#orb1").removeClass("orb-stage3");
+                    $("#orb2").addClass("orb-stage4");
+                    $("#orb1").removeClass("big-orb-stage3");
+                    $("#orb3").addClass("orb-stage4");
+                    $("#orb1").removeClass("orb-stage3");
+                    $("#orb4").addClass("big-orb-stage4");
+                }
+                else {
+                    // do nothing
+                }
+            });
+            $(".arrowleft").on("click", () => {
+                //change backgorund
+                if ($("#orb1").attr("class") == "orb-stage2") {
+                    $(".img").attr("src", "img/ryancircle-back.png")
+                }
+                else if ($("#orb1").attr("class") == "orb-stage3") {
+                    $(".img").attr("src", "img/adam.png")
+                }
+                else if ($("#orb1").attr("class") == "orb-stage4") {
+                    $(".img").attr("src", "img/steven-back.png")
+                }
+                //change orbs
+                if(($("#orb1").attr("class")) == "orb-stage2") {
+                    $("#orb1").removeClass("orb-stage2");
+                    $("#orb1").addClass("big-orb-stage1");
+                    $("#orb2").removeClass("big-orb-stage2");
+                    $("#orb2").addClass("orb-stage1");
+                    $("#orb3").removeClass("orb-stage2");
+                    $("#orb3").addClass("orb-stage1");
+                    $("#orb4").removeClass("orb-stage2");
+                    $("#orb4").addClass("orb-stage1");
+                }
+                else if(($("#orb1").attr("class")) == "orb-stage3") {
+                    $("#orb1").removeClass("orb-stage3");
+                    $("#orb1").addClass("orb-stage2");
+                    $("#orb2").removeClass("orb-stage3");
+                    $("#orb2").addClass("big-orb-stage2");
+                    $("#orb3").removeClass("big-orb-stage3");
+                    $("#orb3").addClass("orb-stage2");
+                    $("#orb4").removeClass("orb-stage3");
+                    $("#orb4").addClass("orb-stage2");
+                }
+                else if(($("#orb1").attr("class")) == "orb-stage4") {
+                    $("#orb1").removeClass("orb-stage4");
+                    $("#orb1").addClass("orb-stage3");
+                    $("#orb2").removeClass("orb-stage4");
+                    $("#orb2").addClass("orb-stage3");
+                    $("#orb3").removeClass("orb-stage4");
+                    $("#orb3").addClass("big-orb-stage3");
+                    $("#orb4").removeClass("big-orb-stage4");
+                    $("#orb4").addClass("orb-stage3");
+                }
+                else {
+                    // do nothing
+                }
+            });
+        }))
+    </script>
+</head>
+<body>
+    <main class="main"> 
+        <div id="left"></div>
+        <div id="middle">
+            <div class="midleft">
+                <button class="arrowleft" type="button"><img src="img/leftarrow.png"></button>
+            </div>
+            <div class="image"><img class="img" src="img/ryancircle-back.png"></div>
+            <div class="orbs">
+                <div class="big-orb-stage1" id="orb1"><img src="img/ryancircle-back.png"></div>
+                <div class="orb-stage1" id="orb2"><img src="img/adam.png"></div>
+                <div class="orb-stage1" id="orb3"><img src="img/steven-back.png"></div>
+                <div class="orb-stage1" id="orb4"><img src="img/artin.jpg"></div>
+            </div>
+            <div class="midright">
+                <button class="arrowright" type="button"><img src="img/rightarrow.png"></button>
+            </div>
+        </div>
+        <div id="right"></div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
